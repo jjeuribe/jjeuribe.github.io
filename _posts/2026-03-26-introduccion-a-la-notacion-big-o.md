@@ -80,6 +80,10 @@ Evidentemente la segunda versión es muchísimo mas rápida en comparación con 
 
 Sin embargo, esta evaluación de alguna manera sigue siendo ambigua, y esto se debe principalmente a la herramienta que hemos utilizado para evaluar el desempeño en el tiempo de ejecución del algoritmo en cuestión: un **Temporizador**.
 
+<!-- ad -->
+{% include adsense-post-inline.html %}
+<!-- /ad -->
+
 Entonces, ¿Me estás diciendo que un _temporizador_ es un mecanismo poco confiable al evaluar el desempeño del tiempo de ejecución de un algoritmo?, en definitiva, y esto se debe principalmente al hardware:
 
 * Diferentes máquinas registran diferentes tiempos dadas las especificaciones de hardware de cada máquina, lo que ocasiona que los resultados puedan variar.
