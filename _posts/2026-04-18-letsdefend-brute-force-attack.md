@@ -1,8 +1,8 @@
 ---
 title: LetsDefend - Brute Force Attack
 image:
-  path: /assets/2026-04-18-letsdefend-brute-force-attack/0_j1yhSokpBRhq_N8m.webp
-  alt: Photo by Ariel on Unsplash
+  path: /assets/2026-04-18-letsdefend-brute-force-attack/2148578138.jpg
+  alt: Photo by freepik on Freepik
 date: 2026-04-18 07:00:00 -0600
 categories: [Cybersecurity, Blue Team]
 tags: [cybersecurity, letsdefendio, soc-analyst, wireshark, bash, mitre-attack]     # TAG names should always be lowercase
