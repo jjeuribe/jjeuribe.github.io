@@ -10,7 +10,7 @@ tags: [cybersecurity, letsdefendio, soc-analyst, wireshark, bash]     # TAG name
 
 A **Shellshock** attack is a security vulnerability that affects the **Bash shell**. It was discovered in **September 2014** and it is tracked as **CVE-2014-6271**. 
 
-The problem comes from how bash handles environment variables, specifically those that contain function definitions. For example: 
+The vulnerability stems from incorrect parsing of functions exported in environment variables. For example: 
 
 ```bash
 > env x='() { :; }; echo Vulnerable' 
@@ -22,7 +22,7 @@ If the system is vulnerable, you'd see the following:
 Vulnerable
 ```
 
-This shouldn't have happened. Bash was only supposed to read the function definition, not execute any commands. An adversary could exploit this buggy behavior to run arbitrary commands on the system. But how can this be done?.
+This shouldn't have happened, bash didn't stop parsing at the function definition and executed a trailing payload. An adversary could exploit this buggy behavior to run arbitrary commands on the system. But how can this be done?.
 
 Well, there are several ways, but the classic attack vector is a CGI web server. This type of web server often runs bash scripts and exports request data (headers, query strings, etc.) into environment variables. A good example is Apache web server, which as built-in support for CGI. 
 
