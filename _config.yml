@@ -14,12 +14,12 @@ timezone: America/Mexico_City
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Javier Uribe # the main title
+title: 404Room # the main title
 
-tagline: SOC Analyst | Threat Hunter | Incident Responder | Software Engineer # it will display as the subtitle
+tagline: For Those Who Need to Know Why # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
-  Sharing what I learn in cybersecurity and software engineering along the way.
+  For curious minds exploring software, security, AI, IT, and the unexpected.
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
@@ -99,7 +99,7 @@ theme_mode: dark # [light | dark]
 cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar: /assets/img/avatar-jje.png
+avatar: /assets/img/4rkjp74rkjp74rkj.png
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
