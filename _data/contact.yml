@@ -2,6 +2,10 @@
 
 - type: github
   icon: "fab fa-github"
+
+- type: facebook
+  icon: "fab fa-facebook"
+  url: "https://www.facebook.com/404room.dev"
 # Uncomment and complete the url below to enable more contact options
 #
 # - type: twitter
